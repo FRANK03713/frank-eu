@@ -1,0 +1,102 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #ff7700; /* Laranja fogo */
+    padding: 1em 0;
+    text-align: center;
+}
+
+header input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #ff7700; /* Laranja fogo */
+    border-radius: 5px;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ff7700; /* Laranja fogo */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    border: 1px solid #ff7700;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Lista de filmes */
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-item {
+    background-color: #fff;
+    border: 2px solid #ff7700; /* Laranja fogo */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.movie-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ff7700; /* Laranja fogo */
+}
+
+.movie-item h3 {
+    margin: 10px 0 5px;
+    color: #ff7700; /* Laranja fogo */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ff7700; /* Laranja fogo */
+    border-top: 2px solid #ff7700;
+}
